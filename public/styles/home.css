@@ -1,0 +1,214 @@
+@media only screen and (max-width: 768px) {
+
+  /* .bgBlank {
+    position: relative;
+    left: 10px;
+    border-radius: 1px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 15px 0 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 88%;
+  } */
+  
+}
+
+img {
+  -webkit-backface-visibility: hidden; 
+  -ms-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+
+.underline-txt {
+  display: block;
+  margin: 0 auto 25px auto;
+  width: 100px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: rgb(90, 90, 255);
+}
+
+
+/* Jumbotron */
+#profile {
+  /* position: relative;
+  width: 100%;
+  height: 100%; */
+  margin-bottom: 200px;
+  padding: 0 !important;
+}
+
+.bgImage {
+  position: relative;
+  width: 100%;
+  background-image: url("/picture/bg_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  object-fit: cover;
+}
+
+.wrapper-profile {
+  position: relative;
+  /* border: 2px solid red; */
+  /* border-radius: 50px; */
+  width: 100%;
+  height: 100%;
+  top: 160px;
+  /* margin: 100px auto; */
+  /* transform: translateX(33%); */
+  /* background-color: rgba(255, 255, 255, 0.144); */
+  /* padding: 15px 0 15px 0; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* width: 100%;
+  height: 100%; */
+}
+
+.image-wrapper {
+  position: relative;
+  box-sizing: content-box;
+  width: 170px;
+  height: 170px;
+  /* overflow: hidden; */
+  text-align: center;
+  margin: 0 auto;
+}
+.image-wrapper * {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  border: 2px solid white;
+  border-radius: 50%;
+}
+/* .wrapper-profile h1, .wrapper-profile p {
+  color: white;
+} */
+
+/* .parent-image {
+  border-radius: 50px;
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  overflow: hidden;
+} */
+
+/* .wrapper-profile img {
+  object-fit: contain;
+  width: 170px;
+  height: auto;
+} */
+
+/* .blankBackground {
+  position: relative;
+  transform: translateX(34%);
+  background-color: rgba(255, 255, 255, 0.144);
+  padding: 15px 0 15px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 60%;
+} */
+/* End Jumbotron */
+
+/* About */
+#about {
+  position: relative;
+  min-height: 350px;
+  margin-top: 30px;
+}
+
+#about p {
+  font-size: 16.5px;
+}
+/* End About */
+
+
+/* Skill */
+
+.collapsible {
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  /* margin: 8px; */
+  color: black;
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #f9f9f9;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: rgb(90, 90, 255);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  /* margin-bottom: 8px; */
+  /* padding: 0 18px; */
+  /* padding: 8px; */
+  margin: 0 !important;
+  padding: 0 !important;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 500ms ease-out;
+  background-color: #f9f9f9;
+}
+
+.content hr {
+  display: block;
+  margin-bottom: -100px;
+}
+.content * {
+  margin: 0 !important;
+  padding: 5px;
+}
+
+.skills-list p {
+  margin: 0 !important;
+  padding: 5px;
+}
+
+/* End Skill */
+
+/* Pengalaman */
+
+#pengalaman p {
+  margin: 0 !important;
+}
+
+.txt-fade {
+  color: rgb(149, 149, 149);
+}
+
+#pengalaman ul {
+  list-style: none; /* Remove default bullets */
+}
+
+#pengalaman ul li::before {
+  content: "\2022";
+  color: rgb(90, 90, 255);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#pengalaman .container-pengalaman {
+  margin-bottom: 40px;
+}
+
+/* End Pengalaman */
